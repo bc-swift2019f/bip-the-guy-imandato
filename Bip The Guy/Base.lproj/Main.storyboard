@@ -19,27 +19,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usqacw57gta11" translatesAutoresizingMaskIntoConstraints="NO" id="0Ci-tI-5kl">
-                                <rect key="frame" x="20" y="44" width="374.00000000000011" height="487.00000000000023"/>
+                                <rect key="frame" x="20" y="44" width="374" height="16"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Wf2-aS-zRe" appends="YES" id="wkQ-se-L1q"/>
                                 </connections>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="ohK-SK-nlm">
-                                <rect key="frame" x="108" y="567" width="198" height="30"/>
+                                <rect key="frame" x="108" y="96" width="198" height="501"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="dM5-fF-EVD">
-                                        <rect key="frame" x="0.0" y="0.0" width="198" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="198" height="501"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4cP-tM-o04">
-                                                <rect key="frame" x="0.0" y="0.0" width="92" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="92" height="501"/>
                                                 <state key="normal" title="Photo Library"/>
                                                 <connections>
                                                     <action selector="libraryPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wTo-hk-nV3"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPm-bL-lgZ">
-                                                <rect key="frame" x="122" y="0.0" width="76" height="30"/>
+                                                <rect key="frame" x="122" y="0.0" width="76" height="501"/>
                                                 <state key="normal" title="Take Photo"/>
                                                 <connections>
                                                     <action selector="cameraPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uOn-4h-f5r"/>
@@ -50,7 +50,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Image to Punch:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmU-Mx-a9M">
-                                <rect key="frame" x="119" y="539" width="187" height="21"/>
+                                <rect key="frame" x="119" y="68" width="187" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="QMq-Hy-3wp"/>
                                 </constraints>
